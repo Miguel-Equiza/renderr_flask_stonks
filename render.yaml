@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: flask-soft-design
-    plan: free
-    env: python
-    region: frankfurt
-    buildCommand: "./build.sh"
-    startCommand: "gunicorn app:app"
